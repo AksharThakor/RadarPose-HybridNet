@@ -69,13 +69,13 @@ Scripts in the `utils/` folder are modular. To run them, either move them to the
 
 The Point Transformer reconstructs high-fidelity skeletons from sparse point clouds.
 
-![**3-Panel View**: Ground Truth | Raw mmWave Points | Predicted Skeleton (Frontal View)]()
+![**3-Panel View**: Ground Truth | Raw mmWave Points | Predicted Skeleton (Frontal View)](assets/mmwave_pose_triplet.gif)
 
 ### Hybrid Pipeline Performance
 
 The hybrid model eliminates the performance ceiling of sequential training, reaching **95.79% accuracy**.
 
-![**Confusion Matrix** of Hybrid model ](assets/mmwave_pose_triplet.gif)
+![**Confusion Matrix** of Hybrid model ]()
 
 ## Credits
 
