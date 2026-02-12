@@ -2,7 +2,7 @@
 
 This project implements a state-of-the-art Hybrid End-to-End Pipeline for Human Activity Recognition (HAR) using sparse mmWave radar point clouds. By unifying a Point Transformer for 3D pose estimation and a CTR-GCN for temporal action classification, the system achieves **95.79% overall accuracy** across 23 curated rehabilitation and daily living actions.
 
-## 📋 Summary
+## Summary
 
 Traditional mmWave HAR pipelines suffer from cascading errors when pose estimation and classification are treated as isolated steps. This repository provides:
 
@@ -10,7 +10,7 @@ Traditional mmWave HAR pipelines suffer from cascading errors when pose estimati
 - **Stage 2**: A temporal classifier (**CTR-GCN**) utilizing channel-wise topology refinement.
 - **Hybrid E2E**: A unified model that co-optimizes the backbone and classifier, allowing *"Task-Aware"* skeletal refinement and superior accuracy.
 
-## 🛠️ Requirements
+## Requirements
 
 Install the dependencies listed in `requirements.txt`:
 
@@ -25,7 +25,7 @@ scikit-learn
 tqdm
 ```
 
-## 🚀 Installation & Usage
+## Installation & Usage
 
 ### 1. Data Setup
 
@@ -63,7 +63,7 @@ python hybrid_train.py
 #### Utils
 Scripts in the `utils/` folder are modular. To run them, either move them to the root directory or ensure all local dependencies are copied into the `utils/` folder.
 
-## 📊 Results & Visualization
+## Results & Visualization
 
 ### Stage 1: 3D Pose Estimation
 
@@ -77,7 +77,7 @@ The hybrid model eliminates the performance ceiling of sequential training, reac
 
 - Includes Raw Accuracy Confusion Matrix for 23 Curated Actions
 
-## 📚 Credits
+## Credits
 
 - This work utilizes the MMFi Dataset  
   - [*Yang, J., et al. "MMFi: A Multi-Modal Non-Intrusive Corpus for Human Configuration Sensing." CVPR 2023.*](https://ntu-aiot-lab.github.io/mm-fi)
@@ -86,6 +86,6 @@ The hybrid model eliminates the performance ceiling of sequential training, reac
   - [Point Transformer](https://arxiv.org/abs/2012.09164)
   - [CTR-GCN](https://arxiv.org/abs/2107.12213)
 
-## 📜 License
+## License
 
 Distributed under the **MIT License**.
