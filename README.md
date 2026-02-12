@@ -75,7 +75,7 @@ The Point Transformer reconstructs high-fidelity skeletons from sparse point clo
 
 The hybrid model eliminates the performance ceiling of sequential training, reaching **95.79% accuracy**.
 
-![**Confusion Matrix** of Hybrid model ]()
+![**Confusion Matrix** of Hybrid model ](assets/hybrid_recall.png)
 
 ## Credits
 
