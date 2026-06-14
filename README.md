@@ -29,7 +29,7 @@ tqdm
 
 ### 1. Data Setup
 
-- Download the MMFi Dataset from the official [source]((https://ntu-aiot-lab.github.io/mm-fi).
+- Download the MMFi Dataset from the official [source](https://ntu-aiot-lab.github.io/mm-fi).
 - Extract it into the `data/` folder.
 - Ensure your `data/` directory contains the curated CSV:
   ```
